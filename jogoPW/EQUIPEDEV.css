@@ -1,0 +1,156 @@
+.fundo{
+   background-image:url(IMG/b856a6c2f85341247c6e65f368a008fe41e969ba.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:0%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10vh 6vh;
+   padding: 5vh;
+}
+
+.card{
+   background-color: rgba(255, 228, 196, 0.671);
+   height: 50vh;
+   width: 26vh;
+   text-align:center;
+   border-radius: 1vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   margin-top: 10%;
+   transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+   transform: scale(1.05);
+}
+
+
+
+.imgerick{
+ width:20vh;
+ margin-top: 5%;
+ border-radius: 1vh;  
+}
+
+
+.imgallan{
+ width:20vh;
+ height: 25vh;
+ margin-top: 5%;
+ border-radius: 1vh;  
+}
+
+
+
+.imgmaxwell{
+ width:20vh;
+ height: 15vh;
+ margin-top: 5%;
+ border-radius: 1vh;  
+}
+
+
+
+
+.imglucas{
+ width:20vh;
+ height: 20vh;
+ margin-top: 5%;
+ border-radius: 1vh;  
+}
+
+
+
+
+.imgvitta{
+ width:20vh;
+ height: 20vh;
+ margin-top: 5%;
+ border-radius: 1vh;  
+}
+
+
+
+
+.imgdiego{
+ width:20vh;
+ height: 20vh;
+ margin-top: 5%;
+ border-radius: 1vh;  
+}
+
+
+.linha{
+   background-color: black;
+   width: 80%;
+   height: 2%;
+   margin-top:15%;
+   margin-left:5%;
+}
+
+.btn-voltar {
+  background: linear-gradient(180deg, #1e3269 0%, #16275c 100%);
+  color: white;
+  text-decoration: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+  padding: 1.5vh 4vh;
+  border-radius: 10px;
+  border: 2px solid #32CD32;
+  transition: 0.2s;
+  font-family: Arial, sans-serif;
+}
+
+.btn-voltar:hover {
+  background-color: #32CD32;
+  color: #1e3269;
+  transform: translateY(-3px);
+}
+
+.btn-voltar:active {
+  transform: translateY(0);
+  opacity: 0.9;
+}
+
+
+
+@media (max-width: 1024px) {
+   .card {
+      width: 20vh;
+      height: 28vh;
+   }
+}
+
+@media (max-width: 768px) {
+   .fundo {
+      gap: 4vh;
+   }
+   .card {
+      width: 18vh;
+      height: 26vh;
+   }
+   .card img {
+      width: 13vh;
+      height: 13vh;
+   }
+}
+
+@media (max-width: 480px) {
+   .fundo {
+      flex-direction: column;
+      align-items: center;
+   }
+   .card {
+      width: 70%;
+      height: auto;
+      padding: 2vh;
+   }
+   .card img {
+      width: 60%;
+      height: auto;
+   }
+}
